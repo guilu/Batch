@@ -21,13 +21,20 @@ And then use the class anywhere in your file:
 	...
 	<i class="fb fb-267"></i>
 
-###easiest way...
-Even easier? Yes you can! You don't even have to download it, simply put this link in your page and you are good to go:
+The .css file has the references to Adam's repo
 
-	<link rel="stylesheet" href="https://raw.github.com/guilu/Batch/master/CSS/font-batch.css">
+	@font-face {
+	    font-family: 'FontBatch';
+    	src: url('https://github.com/AdamWhitcroft/Batch/raw/master/Webfont/batch-icons-webfont.eot?v=1.3');
+    	src: url('https://github.com/AdamWhitcroft/Batch/raw/master/Webfont/batch-icons-webfont.eot?v=1.32#iefix') format('embedded-opentype'),
+    	url('https://github.com/AdamWhitcroft/Batch/raw/master/Webfont/batch-icons-webfont.woff?v=1.3') format('woff'),
+    	url('https://github.com/AdamWhitcroft/Batch/raw/master/Webfont/batch-icons-webfont.ttf?v=1.3') format('truetype'),
+    	url('https://github.com/AdamWhitcroft/Batch/raw/master/Webfont/batch-icons-webfont.svg?v=1.3#fontbatchregular') format('svg');
+    	font-weight: normal;
+    	font-style: normal;
+	}
 
-
-I didn't name them, but it would be nice, though.
+I didn't name them, but it would be nice, though. Until then we have to use the number of icons...
 
 
 All the icons (in a sample page...)
