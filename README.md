@@ -12,19 +12,19 @@ The mechanic is simple:
 
 Download the .css file and add the style to your page
 
-	<pre>\<link rel="stylesheet" href="css/font-batch.css"></pre>
+	<link rel="stylesheet" href="css/font-batch.css">
 
 And then use the class anywhere in your file:
 
-	<pre>\<i class="fb fb-1"></i>
-\<i class="fb fb-2"></i>
-...
-\<i class="fb fb-267"></i></pre>
+	<i class="fb fb-1"></i>
+	<i class="fb fb-2"></i>
+	...
+	<i class="fb fb-267"></i>
 
 ###easiest way...
 Even easier? Yes you can! You don't even have to download it, simply put this link in your page and you are good to go:
 
-	<pre>\<link rel="stylesheet" href="https://raw.github.com/guilu/Batch/master/CSS/font-batch.css"></pre>
+	<link rel="stylesheet" href="https://raw.github.com/guilu/Batch/master/CSS/font-batch.css">
 
 
 I didn't name them, but it would be nice, though.
