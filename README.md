@@ -2,26 +2,34 @@
 
 ###A lovingly designed and crafted suite of 300 (and counting) icons for web and user interface design by [@adamwhitcroft](https://twitter.com/adamwhitcroft).
 
-Each icon in the Batch PSD is a single shape layer, meaning they can be scaled up&mdash;or down&mdash;without loss of quality.
+---
+#My fork adds an .css file to rule the icons like the fontawesome.io project
 
-##Versions
+##Instalation
 
-As Batch is a growing resource, it made the most sense to host it on GitHub for the versioning and wiki features. View the [version history here](https://github.com/AdamWhitcroft/Batch/wiki/Version-History).
 
-##License
+The mechanic is simple:
 
-You are free to use Batch (the "icon set") or any part thereof (the "icons") in any personal, open-source or commercial work without obligation of payment (monetary or otherwise) or attribution. Do not sell the icon set, host the icon set or rent the icon set (either in existing or modified form).
+Download the .css file and add the style to your page
 
-While attribution is optional, it is always appreciated.
+	<pre>\<link rel="stylesheet" href="css/font-batch.css"></pre>
 
-Intellectual property rights are not transferred with the download of the icons.
+And then use the class anywhere in your file:
 
-EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL ADAM WHITCROFT BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT OF THE USE OF THE ICONS, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+	<pre>\<i class="fb fb-1"></i>
+\<i class="fb fb-2"></i>
+...
+\<i class="fb fb-267"></i></pre>
 
-##Batch Icon-font
+###easiest way...
+Even easier? Yes you can! You don't even have to download it, simply put this link in your page and you are good to go:
 
-[Matt Allen](https://twitter.com/sdmix) will be creating the Batch Font.
+	<pre>\<link rel="stylesheet" href="https://raw.github.com/guilu/Batch/master/CSS/font-batch.css"></pre>
 
-##Batch & inuit.css
 
-[Harry Roberts](https://twitter.com/csswizardry) will be incorporating the Batch icon-font into [inuit.css](https://github.com/csswizardry/inuit.css). You can keep an eye on progress on [the inuit.css issue tracker](https://github.com/csswizardry/inuit.css/issues/67).
+I didn't name them, but it would be nice, though.
+
+
+All the icons (in a sample page...)
+
+![image](https://f.cloud.github.com/assets/157671/1821850/4995e366-7144-11e3-8fdc-3700604d3a87.png)
